@@ -14,6 +14,10 @@
     <ProjectCapability Include="SourceItemsFromImports" />
   </ItemGroup>
   <ItemGroup>
+    <ClInclude Include="$(MSBuildThisFileDirectory)CommonConsoleStream.h" />
     <ClInclude Include="$(MSBuildThisFileDirectory)xutil.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="$(MSBuildThisFileDirectory)CommonConsoleStream.cpp" />
   </ItemGroup>
 </Project>
